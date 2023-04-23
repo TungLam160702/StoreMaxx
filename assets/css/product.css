@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+ul{
+    list-style:none;
+    padding:0;
+}
+
+
+
+.picture_show {
+    width: 400px;
+    height: 300px;
+    position: relative;
+}
+
+.picture_show img {
+    max-width: 100%;
+}
+
+.picture_move {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.picture_move span {
+    font-size: 18px;
+    text-align: center;
+    line-height: 28px;
+    color: #000000;
+    width: 26px;
+    height: 28px;
+    background-color: hsl(0, 0%, 90%, 0.8);
+    cursor: pointer;
+}
+
+.picture_move span:hover {
+    background-color: #9B0C0C;
+    color: #D0D0D0;
+}
+
+ul.picture-list{
+    display:flex;
+    align-items:center;
+    margin-left:-6px;
+    margin-right:-6px;
+    margin-top:16px;
+}
+
+ul.picture-list li{
+    padding-left:6px;
+    padding-right:6px;
+}
+
+.active img{
+    border:2px solid  #9B0C0C;
+}
+
+ul.picture-list img{
+    max-width:100%;
+    cursor:pointer;
+}
+#num-order-wp{ margin-bottom: 25px;}
+#num-order{
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border: 1px solid #b1b1b1;
+    font-family: "Roboto Regular";
+    color: #545454;
+}
+#minus, #plus{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border: 1px solid #a0a0a0;
+    font-family: "Roboto Regular";
+    color: #515151;
+    font-size: 10px;
+    cursor: pointer;
+}
+#minus:hover{
+    color: #3a9800;
+    border: 1px solid #3a9800;
+}
+#plus:hover{
+    color: #F00;
+    border: 1px solid #F00;
+}
+.desc .num-product .price p{
+    font-size: 17px;
+    font-weight: 400;
+}

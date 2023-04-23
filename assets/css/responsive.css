@@ -1,0 +1,368 @@
+@media (min-width: 576px) {
+    .banner__text {
+        max-width: 360px;
+        margin-top: 20%;
+        margin-left: 8%;
+    }
+
+    .banner__sale {
+        font-size: 14px;
+    }
+
+    .banner__name {
+        font-size: 22px;
+    }
+
+    .category .category__text {
+        position: absolute;
+        margin-top: 34%;
+        text-align: right;
+        padding-right: 14px;
+    }
+    
+
+}
+
+@media (min-width: 768px) {
+
+    .banner__text {
+        max-width: 300px;
+        font-size: 16px;
+        margin-top: 13%;
+        margin-left: 20%;
+    }
+
+    .banner__sale {
+        font-size: 12px;
+        margin-bottom: 6px;
+    }
+
+    .banner__name {
+        font-size: 26px;
+        margin-bottom: 6px;
+    }
+
+    .banner__desc {
+        display: block;
+    }
+
+    .button {
+        font-size: 12px;
+        padding: 5px 10px;
+        margin-top: 16px;
+    }
+
+    .category__shoes + .button {
+        padding: 7px 10px;
+        font-size: 10px;
+    }
+
+    .button-1 {
+        padding: 4px 22px;
+        margin-top: 8px;
+    }
+
+    #home-slide ol.carousel-indicators {
+        margin-bottom: 8px;
+    }
+
+    #home-slide ol.carousel-indicators li {
+        max-width: 24px;
+        max-height: 2px;
+    }
+
+
+    .support-you {
+        margin-top: 60px;
+
+    }
+
+    .support-you .row {
+        display: flex;
+        box-sizing: border-box;
+    }
+
+    .support-you__item {
+        text-align: center;
+        transition: all 0.1s ease-in-out;
+        background-color: #f4f4f4;
+        margin-right: 30px;
+        flex: 28%;
+        padding: 0 40px;
+        transition: all 0.1s ease-in-out;
+    }
+
+    .category .category__text {
+        position: absolute;
+        margin-top: 34%;
+        text-align: right;
+        padding-right: 26px;
+    }
+
+
+}
+
+@media (min-width: 992px) {
+    * {
+        font-size: 14px;
+    }
+
+    i.navbar-responsive {
+        display: none;
+    }
+
+    .search-bought, .post-share__day, .post-share__desc {
+        display: block;
+    }
+
+    #main-menu {
+        display: flex;
+    }
+
+    .support-you__item__text {
+        font-size: 14px;
+    }
+
+    .support-you__item i {
+        font-size: 34px;
+    }
+
+    .card-body {
+        text-align: left;
+    }
+
+    .post-share .card-body {
+        text-align: center;
+    }
+
+    .comment {
+        font-size: 12px;
+    }
+
+    .banner__text {
+        max-width: 380px;
+        font-size: 16px;
+        margin-top: 16%;
+        margin-left: 10%;
+    }
+
+    .banner__sale {
+        font-size: 16px;
+        margin-bottom: 6px;
+    }
+
+    .banner__name {
+        font-size: 36px;
+        margin-bottom: 6px;
+    }
+
+    .banner__desc {
+        text-transform: capitalize;
+        font-size: 12px;   
+    }
+
+    .banner__desc__bonus {
+        display: none;
+    }
+
+    .button {
+        font-size: 14px;
+        padding: 7px 12px;
+        margin-top: 22px;
+    }
+    
+    .category__shoes + .button {
+        padding: 12px 16px;
+    }
+
+    .button-1 {
+        padding: 6px 24px;
+        margin-top: 18px;
+    }
+
+    
+    #home-slide ol.carousel-indicators {
+        margin-bottom: 20px;
+    }
+
+    #home-slide ol.carousel-indicators li {
+        max-width: 30px;
+        max-height: 3px;
+    }
+
+    .box-header h3 {
+        font-size: 22px;
+        font-weight: 700;
+        color: #343434;
+    }
+
+    .box-header p {
+        font-size: 14px;
+        color: #837d7d;
+        margin-bottom: 0;
+    }
+
+    .comment {
+        font-size: 12px;
+    }
+
+    .product-new__start-comment {
+        font-size: 14px;
+        margin-bottom: 1rem;
+    }
+
+    .product-new__name {
+        margin-bottom: 1rem;
+    }
+
+    .category .category__text {
+        position: absolute;
+        margin-top: 34%;
+        text-align: right;
+        padding-right: 30px;
+    }
+
+    .category__shoes {
+        font-size: 28px;
+        color: #343434;
+        display: block;
+        margin-bottom: -4px;
+    }
+
+
+    #footer {
+        background-color: #212121;
+        padding-top: 80px;
+        padding-bottom: 100px;
+        text-align: left;
+    }
+
+    .cate-log {
+        margin-bottom: 0;
+    }
+
+    #copyright {
+        text-align: left;
+    }
+
+
+
+}
+
+@media (min-width: 1200px) {
+    .support-you__item__text {
+        font-size: 16px;
+    }
+
+    #top-header {
+        display: flex;
+    }
+
+    .banner__text {
+        max-width: 600px;
+        text-align: center;
+        color: #000000;
+        font-size: 18px;
+        margin-top: 16%;
+        margin-left: 16%;
+    }
+
+    .banner__sale {
+        color: #000;
+        font-size: 18px;
+        margin-bottom: 4px;
+    }
+
+    .banner__name {
+        font-weight: bold;
+        font-size: 50px;
+        color: #e2524a;
+        text-transform: uppercase;
+    }
+
+    .banner__desc {
+        color: #343434;
+        font-size: 18px;
+    }
+
+    .banner__desc__bonus {
+        display: inline;
+        font-size: 18px;
+    }
+
+    .button {
+        padding: 5px 27px;
+        margin-top: 36px;
+        font-size: 18px;
+    }
+
+    .category__shoes + .button {
+        font-size: 14px;
+        padding: 12px 34px
+    }
+
+    .button-1 {
+        padding: 4px 44px;
+        margin-top: 20px;
+        transition: all 0.15s ease-in-out;
+    }
+
+
+    #home-slide ol.carousel-indicators li {
+        min-width: 40px;
+        max-height: 3px;
+    }
+
+    #home-slide ol.carousel-indicators {
+        margin-bottom: 24px;
+    }
+
+
+    .support-you {
+        margin-top: 80px;
+    }
+
+    .support-you__item i {
+        font-size: 48px;
+    }
+
+    .box-header h3 {
+        font-size: 30px;
+        font-weight: 700;
+        color: #343434;
+    }
+
+    .box-header p {
+        font-size: 16px;
+        color: #837d7d;
+        margin-bottom: 0;
+    }
+
+    .comment {
+        font-size: 14px;
+    }
+
+    .product-new__start-comment {
+        font-size: 14px;
+        margin-bottom: 1rem;
+    }
+
+    .product-new__name {
+        margin-bottom: 1rem;
+    }
+
+    .category .category__text {
+        position: absolute;
+        margin-top: 40%;
+        text-align: right;
+        padding-right: 30px;
+    }
+
+    .category__shoes {
+        font-size: 48px;
+        color: #343434;
+        display: block;
+        margin-bottom: -30px;
+    }
+
+}
